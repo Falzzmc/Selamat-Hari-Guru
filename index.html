@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173b35">
+  <title>Selamat Hari Guru Nasional</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+    :root{--green:#173b35;--green2:#285b4d;--gold:#e7bd70;--cream:#fff8e9;--ink:#20332d}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--cream)}
+    .hero{min-height:100vh;position:relative;overflow:hidden;display:grid;place-items:center;padding:38px 20px;background:radial-gradient(circle at 15% 15%,#416e5b 0,transparent 28%),radial-gradient(circle at 90% 85%,#365d4d 0,transparent 30%),linear-gradient(135deg,#102f2b,#1e4a3e 58%,#17352f);color:white}
+    .hero:before,.hero:after{content:"";position:absolute;border:1px solid #e7bd7040;border-radius:50%;width:440px;height:440px}
+    .hero:before{top:-260px;right:-140px}.hero:after{bottom:-310px;left:-140px;width:560px;height:560px}
+    .spark{position:absolute;color:var(--gold);opacity:.8;font-size:22px}.s1{top:13%;left:13%}.s2{top:22%;right:15%;font-size:15px}.s3{bottom:17%;right:12%;font-size:26px}
+    .hero-content{position:relative;z-index:1;text-align:center;max-width:780px}
+    .eyebrow{letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-size:12px;font-weight:700}
+    h1{font:600 clamp(3rem,9vw,6.5rem)/1.04 'Playfair Display',serif;margin:22px 0 14px}
+    h1 span{color:var(--gold);display:block}
+    .sub{font-size:clamp(15px,2vw,18px);line-height:1.8;color:#e5eee8;max-width:590px;margin:0 auto}
+    .divider{width:76px;height:2px;background:var(--gold);margin:30px auto}
+    .date{color:#f1d59e;font-size:13px;letter-spacing:2px}
+    .scroll{margin-top:45px;color:#d8e5dc;font-size:12px;letter-spacing:2px}
+    .scroll b{display:block;font-size:22px;margin-top:8px;color:var(--gold)}
+    section{padding:85px 20px}
+    .wrap{max-width:980px;margin:auto}
+    .section-label{text-align:center;color:#9b7540;text-transform:uppercase;letter-spacing:3px;font-size:11px;font-weight:700}
+    h2{text-align:center;font:600 clamp(2rem,5vw,3.2rem) 'Playfair Display',serif;color:var(--green);margin:12px 0 18px}
+    .intro{text-align:center;max-width:680px;margin:0 auto;color:#627169;line-height:1.8}
+    .message{margin:42px auto 0;max-width:760px;background:white;border:1px solid #eee3ce;border-radius:22px;padding:clamp(25px,5vw,48px);box-shadow:0 18px 55px #1b3c3010;position:relative}
+    .quote{font:500 25px 'Playfair Display',serif;color:var(--green);text-align:center;line-height:1.55}
+    .message p{text-align:center;line-height:1.9;color:#627169}
+    .signature{text-align:center;margin-top:25px;color:#9b7540;font-weight:700}
+    .values{background:#f4eddd}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+    .item{background:#fffaf0;border:1px solid #e9dec8;border-radius:18px;padding:28px 22px;text-align:center}
+    .item .ico{font-size:30px}.item h3{font:600 21px 'Playfair Display',serif;color:var(--green);margin:13px 0 8px}.item p{font-size:14px;line-height:1.7;color:#69756d;margin:0}
+    .closing{text-align:center;background:var(--green);color:white;padding:75px 20px}
+    .closing h2{color:white}.closing p{color:#d9e6dd;line-height:1.8;max-width:600px;margin:0 auto 28px}
+    button{border:0;border-radius:999px;padding:14px 25px;background:var(--gold);color:#263a30;font-weight:700;font:700 14px 'DM Sans';cursor:pointer;transition:.2s}
+    button:hover{transform:translateY(-2px);box-shadow:0 8px 22px #0002}
+    footer{text-align:center;background:#102b27;color:#b9c9bf;padding:22px;font-size:12px;letter-spacing:.5px}
+    .hidden-note{display:none;margin:24px auto 0;max-width:620px;padding:20px;border:1px solid #cba968;border-radius:16px;color:#f7e6c3;line-height:1.8}
+    .hidden-note.show{display:block;animation:fade .5s ease}
+    @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    @media(max-width:700px){.grid{grid-template-columns:1fr}.hero{min-height:90vh}.message{padding:26px 22px}section{padding:65px 18px}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s3">✦</span>
+    <div class="hero-content">
+      <div class="eyebrow">25 November · Hari Guru Nasional</div>
+      <h1>Selamat <span>Hari Guru</span></h1>
+      <p class="sub">Untuk setiap ilmu yang dibagikan, kesabaran yang diberikan, dan masa depan yang dibantu untuk diwujudkan.</p>
+      <div class="divider"></div>
+      <div class="date">TERIMA KASIH, PAHLAWAN TANPA TANDA JASA</div>
+      <div class="scroll">GULIR UNTUK MEMBACA<b>↓</b></div>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <div class="section-label">Sepucuk pesan untukmu</div>
+      <h2>Terima Kasih, Guruku</h2>
+      <p class="intro">Guru bukan hanya mengajarkan apa yang tertulis di buku, tetapi juga membantu kami memahami kehidupan, berani mencoba, dan terus bertumbuh.</p>
+      <article class="message">
+        <div class="quote">“Ilmu yang engkau berikan akan menjadi cahaya yang menerangi langkah kami.”</div>
+        <div class="divider"></div>
+        <p>Terima kasih telah membimbing kami dengan penuh kesabaran. Terima kasih karena tidak lelah mengingatkan, mengarahkan, dan percaya bahwa setiap murid memiliki potensi untuk berhasil.</p>
+        <p>Maaf jika selama belajar kami pernah melakukan kesalahan atau belum menjadi murid yang sempurna. Semoga segala kebaikan dan ilmu yang Bapak/Ibu berikan menjadi amal yang terus mengalir.</p>
+        <div class="signature">Dengan hormat dan rasa terima kasih ❤️</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="values">
+    <div class="wrap">
+      <div class="section-label">Lebih dari sekadar mengajar</div>
+      <h2>Jasa yang Tak Terlupakan</h2>
+      <div class="grid">
+        <div class="item"><div class="ico">📚</div><h3>Memberi Ilmu</h3><p>Membuka jendela pengetahuan dan mengajarkan kami untuk selalu ingin tahu.</p></div>
+        <div class="item"><div class="ico">🌱</div><h3>Membimbing</h3><p>Membantu kami belajar dari kesalahan dan tumbuh menjadi pribadi lebih baik.</p></div>
+        <div class="item"><div class="ico">✨</div><h3>Menginspirasi</h3><p>Menyalakan semangat agar kami berani bermimpi dan berusaha meraihnya.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="section-label" style="color:#e7bd70">Satu ucapan sederhana</div>
+    <h2>Terima Kasih atas Segalanya</h2>
+    <p>Semoga Bapak dan Ibu Guru selalu diberi kesehatan, kebahagiaan, dan semangat untuk terus menebarkan ilmu. Jasa kalian akan selalu kami kenang.</p>
+    <button id="surprise">Buka Pesan Spesial ✨</button>
+    <div class="hidden-note" id="note">
+Teruntuk Bu Yafani 🌷
+
+Selamat Hari Guru Nasional!
+
+Terima kasih, Bu, atas segala ilmu, kesabaran, nasihat, dan bimbingan yang telah Ibu berikan. Terima kasih sudah menjadi sosok yang selalu mengajarkan kami untuk terus belajar dan menjadi lebih baik.
+
+Maaf jika selama ini Nopal pernah melakukan kesalahan atau membuat Ibu kecewa.
+
+Semoga Bu Yafani selalu diberikan kesehatan, kebahagiaan, dan keberkahan. Semoga semua ilmu dan kebaikan yang Ibu berikan menjadi amal jariyah.
+
+Terima kasih untuk semuanya, Bu Yafani.
+
+Dengan hormat dan penuh rasa terima kasih,
+
+Dari Nopal ❤️</div>
+  </section>
+  <footer>Dibuat dengan rasa hormat dan terima kasih · Selamat Hari Guru Nasional</footer>
+  <script>
+    const button = document.getElementById('surprise');
+    const note = document.getElementById('note');
+    button.addEventListener('click', () => {
+      note.classList.toggle('show');
+      button.textContent = note.classList.contains('show') ? 'Tutup Pesan' : 'Buka Pesan Spesial ✨';
+    });
+  </script>
+</body>
+</html>
